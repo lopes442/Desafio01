@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.timer {
+    width: 20px;
+    position: relative;
+    top: 500px;
+    right: 300px;
+    bottom: 10px;
+    
+}
+
+.texto {
+    height: 0;
+    width: 120px;
+    position: relative;
+    top: 500px;
+    right: 300px;
+    bottom: 10px;
+}
+
+.today{
+    height: 0;
+    width: 100px;
+    position: relative;
+    top: 509px;
+    right: 300px;
+    bottom: 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    max-height: 1920px;
+    position: relative;
+    left: 120px;
+}
+
+img{
+    max-width: 100%;
+    padding: 10px;
+    width: 200px;
+}
+
+
+                /* Telefones */
+
+@media screen and (min-width:320px) and (max-width: 481px) {
+ 
+    header {
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        width: 50%;
+        width:181px;
+        text-align: center;
+        margin: auto;
+        position:relative; 
+        top:50px;
+        left: 26px;
+    }  
+    
+    
+    
+    .timer {
+        position: relative;
+        top: 410px;
+        right: 301px;
+        bottom: 10px;
+        width: 20px;
+    }
+    
+    .texto {
+        height: 0;
+        position: relative;
+        top: 415px;
+        right: 298px;
+        bottom: 10px;
+        width: 20px;
+    }
+    .today {
+        height: 0;
+        width: 18px;
+        position: relative;
+        top: 420px;
+        right: 215px;
+        bottom: 10px;
+    }
+
+    .timer img{
+        
+        max-width: 100%;
+    }
+
+    .today img{
+        max-width: 588%;
+    }
+
+    .texto img{
+        
+        max-width: 436%;
+    }
+    
+    
+    main {
+        display: flex;
+        justify-content: center;
+        max-width: 1080px;
+        max-height: 1920px;
+        position: relative;
+        left: 65px;
+    }
+    
+    img{
+        max-width: 100%;
+        padding: 10px;
+        width: 200px;
+    }
+
+
+    
+    .produto {
+    height: 100%;
+    display: flex;
+    width: 240px;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    top: 0;
+    left: 0px;
+    bottom: 0px;
+    padding: 30px;
+    border-radius:50% ;
+    }
+    
+    .container {
+    height: 100%;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    background-color: rgba(141, 250, 116, 0.816);
+    position: relative;
+    top: 10em;
+    left: 0px;
+    bottom: 0px;
+    padding: 50px;
+    border-radius:50% ;
+    }
+
+
+    .produto0{
+        display: none;
+    }
+
+    .produto1{
+        display: none;
+    }
+
+    .produto2{
+
+        display: none;
+        
+    }
+
+   
+    .container0{
+        display: none;
+    } 
+
+    .container1{
+        display: none;
+    }
+
+    .container2{
+        display: none;
+    }   
+
+
+    
+}
+
+        /* Computadores */
+
+@media screen and (min-width:768px) {
+
+    header {
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        width: 50%;
+        width:181px;
+        text-align: center;
+        margin: auto;
+        position:relative; 
+        top:50px;
+        left: 35px;
+    }  
+    
+
+    .produto {
+       display: none;
+    }
+
+    .container {
+      display: none;
+    }
+
+
+
+    .produto0{
+        height: 100%;
+        display: flex;
+        width: 240px;
+        justify-content: center;
+        position: relative;
+        background-color: white;
+        top: 0;
+        left: 0px;
+        bottom: 0px;
+        padding: 30px;
+        border-radius:50% ;
+        
+    }
+
+    .produto1{
+
+        height: 100%;
+        display: flex;
+        width: 240px;
+        justify-content: center;
+        position: relative;
+        background-color: white;
+        top: 0;
+        left: 0px;
+        bottom: 0px;
+        padding: 30px;
+        border-radius:50% ;
+        
+    }
+
+    .produto2{
+
+        height: 100%;
+        display: flex;
+        width: 240px;
+        justify-content: center;
+        position: relative;
+        background-color: white;
+        top: 0;
+        left: 0px;
+        bottom: 0px;
+        padding: 30px;
+        border-radius:50% ;
+        
+    }
+
+   
+    .container0{
+        height: 100%;
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        margin-top: -90px;
+        background-color: rgba(141, 250, 116, 0.816);
+        position: relative;
+        top: 10em;
+        left: -85px;
+        bottom: 0px;
+        padding: 50px;
+        border-radius:50% ;
+        
+    } 
+
+    .container1{
+        height: 100%;
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        margin-top: -90px;
+        background-color: rgba(141, 250, 116, 0.816);
+        position: relative;
+        top: 10em;
+        left: -48px;
+        bottom: 0px;
+        padding: 50px;
+        border-radius:50% ;
+    }
+
+    .container2{
+        height: 100%;
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        margin-top: -90px;
+        background-color: rgba(141, 250, 116, 0.816);
+        position: relative;
+        top: 10em;
+        left: -16px;
+        bottom: 0px;
+        padding: 50px;
+        border-radius:50% ;
+    }   
+    .timer {
+        position: relative;
+        top: 410px;
+        right: 510px;
+        bottom: 10px;
+        width: 20px;
+    }
+    
+    .texto {
+        height: 0;
+        position: relative;
+        top: 415px;
+        right: 500px;
+        bottom: 10px;
+        width: 20px;
+    }
+    .today {
+        height: 0;
+        width: 18px;
+        position: relative;
+        top: 420px;
+        right: 420px;
+        bottom: 10px;
+    }
+
+    .timer img{
+        
+        max-width: 100%;
+    }
+
+    .today img{
+        max-width: 588%;
+    }
+
+    .texto img{
+        
+        max-width: 436%;
+    }
+
+
+}
+
